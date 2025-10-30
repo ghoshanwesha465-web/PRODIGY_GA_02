@@ -1,0 +1,26 @@
+@"
+# Python virtual environment
+# This is the most important folder to ignore!
+venv/
+.venv/
+env/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Generated output images
+# This stops you from accidentally committing your generated art
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.gif
+*.webp
+
+# Environment files (for API keys or secrets)
+.env
+.env.*
+"@ | Out-File .gitignore -Encoding utf8
